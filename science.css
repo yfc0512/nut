@@ -1,0 +1,128 @@
+/* เครือข่ายคอมพิวเตอร์ - เน้นโทนสีน้ำเงิน */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #eef3f9;
+    color: #333;
+}
+
+/* ส่วนหัว */
+.header.network {
+    background: linear-gradient(135deg, #007bff, #00d4ff);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.header-content h1 {
+    margin: 0;
+    font-size: 2.8rem;
+    text-shadow: 2px 2px #0056b3;
+}
+
+.header-content p {
+    margin: 0.5rem 0 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+/* เนื้อหา */
+.content {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    line-height: 1.8;
+}
+
+.content h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px #99cfff;
+}
+
+.content p {
+    margin-bottom: 1.5rem;
+}
+
+/* รูปภาพ */
+.image-container img,
+.diagram-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.diagram-container p {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 0.5rem;
+}
+
+/* รายละเอียด */
+.details h3,
+.examples h3 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-top: 2rem;
+}
+
+.details ul {
+    list-style: square;
+    padding-left: 1.5rem;
+}
+
+.details ul li {
+    margin-bottom: 0.8rem;
+    color: #333;
+}
+
+/* ปุ่มกลับ */
+.back-button {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.back-button a {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #007bff;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease;
+}
+
+.back-button a:hover {
+    background: #0056b3;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #007bff;
+    color: white;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+.footer a {
+    color: #ffe400;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

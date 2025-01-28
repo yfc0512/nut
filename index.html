@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal Popup Enhanced</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- พื้นหลัง GIF -->
+    <div class="background">
+        <img src="img/2fabf3ceb5a35b51a70e27137d56e4d2.gif" alt="Background Animation">
+    </div>
+
+    <!-- ส่วนเมนู -->
+    <main id="menu">
+        <section class="menu-section">
+            <div class="menu-item">
+                <div class="menu-card" onclick="openModal('modalEnglish')">
+                    <img src="img/Screenshot 2025-01-23 103859.png" alt="ภาษาอังกฤษ" class="menu-img">
+                    <h2>ภาษาอังกฤษเพื่อการทำงาน</h2>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-card" onclick="openModal('modalNetwork')">
+                    <img src="img/Screenshot 2025-01-23 105820.png" alt="เครือข่ายคอมพิวเตอร์" class="menu-img">
+                    <h2>เครือข่ายคอมพิวเตอร์</h2>
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-card" onclick="openModal('modalEthics')">
+                    <img src="img/Screenshot 2025-01-23 175208.png" alt="จริยธรรมและกฎหมายคอมพิวเตอร์" class="menu-img">
+                    <h2>จริยธรรมและกฎหมายคอมพิวเตอร์</h2>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div id="modalEnglish" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modalEnglish')">&times;</span>
+            <h2>ภาษาอังกฤษเพื่อการทำงาน</h2>
+            <p>เรียนรู้ทักษะภาษาอังกฤษที่จำเป็นสำหรับการสื่อสารในงานอย่างมีประสิทธิภาพ เช่น การเขียนอีเมล การพูดในที่ประชุม และอื่นๆ</p>
+            <a href="math.html" class="read-more">อ่านเพิ่มเติม</a>
+        </div>
+    </div>
+
+    <div id="modalNetwork" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modalNetwork')">&times;</span>
+            <h2>เครือข่ายคอมพิวเตอร์</h2>
+            <p>เรียนรู้เกี่ยวกับโครงสร้างและการทำงานของระบบเครือข่าย รวมถึงโปรโตคอลที่ใช้ในโลกของการสื่อสาร</p>
+            <a href="science.html" class="read-more">อ่านเพิ่มเติม</a>
+        </div>
+    </div>
+
+    <div id="modalEthics" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modalEthics')">&times;</span>
+            <h2>จริยธรรมและกฎหมายคอมพิวเตอร์</h2>
+            <p>สำรวจหลักการทางจริยธรรมและกฎหมายที่เกี่ยวข้องกับการใช้เทคโนโลยีในปัจจุบัน</p>
+            <a href="history.html" class="read-more">อ่านเพิ่มเติม</a>
+        </div>
+    </div>
+<footer class="footer">
+    <div class="container">
+        <div class="about-section">
+            <h3>เกี่ยวกับเว็บไซต์นี้</h3>
+            <p>เว็บไซต์นี้จัดทำขึ้นเพื่อให้ความรู้เกี่ยวกับวิชาต่าง ๆ เช่น ภาษาอังกฤษเตรียมความพร้อม, เครือข่ายคอมพิวเตอร์ และจริยธรรมและกฎหมายคอมพิวเตอร์</p>
+        </div>
+
+        <div class="group-section">
+            <h3>กลุ่มผู้จัดทำ</h3>
+            <ul>
+                <li>ณัฐพล ทระคำไพ </li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+        <div class="reference-section">
+            <h3>แหล่งอ้างอิง</h3>
+            <ul>
+                <li><a href="https://www.thairath.co.th/news/tech/1757873" target="_blank">thairath</a></li>
+                <li><a href="https://regis.dusit.ac.th/main/?page_id=4918" target="_blank">PDPA</a></li>
+                <li><a href="https://nst-green.name/5-%E0%B9%80%E0%B8%A5%E0%B9%80%E0%B8%A2%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B8%82%E0%B8%AD%E0%B8%87-tcp-ip/" target="_blank">MR.green</a></li>
+                <li><a href="https://library.wu.ac.th/km/%E0%B8%A3%E0%B8%B0%E0%B8%9A%E0%B8%9A%E0%B9%80%E0%B8%84%E0%B8%A3%E0%B8%B7%E0%B8%AD%E0%B8%82%E0%B9%88%E0%B8%B2%E0%B8%A2%E0%B8%84%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B4%E0%B8%A7%E0%B9%80%E0%B8%95%E0%B8%AD/" target="_blank">library</a></li>
+            </ul>
+        </div>
+
+        <p class="copyright"> 2025 เว็บไซต์นี้พัฒนาโดยกลุ่มของเรา</p>
+    </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
